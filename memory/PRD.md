@@ -499,6 +499,23 @@ pseudo-3D parallax and an orbital company hub.
   unchanged). Searched entire codebase for other "2005" or founding-year references — this
   was the only occurrence. Verified via screenshot.
 
+## Awards Page Restructure (2026-11-23)
+- Koala Invest reordered to strict ascending chronology: 2021, 2022, 2023, 2025, 2026
+  (was previously reordered for grid-fill reasons in an earlier turn; now reverted to pure
+  ascending order per explicit request).
+- Removed 2 awards from Kailash Lawyers: 2022 "NSW Volunteer of the Year" and 2026
+  "Certificate of Excellence" (now 4 awards: 2021, 2022 Parramatta, 2023, 2025). Old image
+  files `kailash-lawyers-2022-nsw-volunteer.jpg` and `kailash-lawyers-2026-certificate-excellence.jpg`
+  deleted (no longer referenced anywhere).
+- New "Notable Recognitions" section added as a 4th `COMPANY_AWARDS` entry (key
+  `notable-recognitions`, color `#B8912F`) below Kuber Projects — subtitle auto-computes to
+  "3 recognitions to date" via existing dynamic count logic. 3 awards in ascending order:
+  2022 NSW Volunteer of the Year (moved from Kailash Lawyers, `public/awards/notable-2022-nsw-volunteer.jpg`),
+  2025 Certificate of Excellence (new, `notable-2025-certificate-excellence.jpg`), 2026
+  Certificate of Excellence (moved from Kailash Lawyers, `notable-2026-certificate-excellence.jpg`).
+  Private user uploads were made public via `set_asset_visibility` before downloading.
+- Verified via screenshot — all 4 sections render correctly in order.
+
 ## Backlog / Next
 - P1: Individual richer company microsites (projects gallery for Kuber, suburb data for Koala).
 - P1: CMS/admin to view enquiries in-app.

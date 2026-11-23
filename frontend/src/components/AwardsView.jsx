@@ -14,11 +14,9 @@ const COMPANY_AWARDS = [
     color: "#0A2540",
     items: [
       { year: "2021", title: "Parramatta Local Business Awards", note: "Winner", image: "/awards/kailash-lawyers-2021-local-business-winner.webp" },
-      { year: "2022", title: "NSW Volunteer of the Year", note: "Recognition", image: "/awards/kailash-lawyers-2022-nsw-volunteer.jpg" },
       { year: "2022", title: "Parramatta Local Business Awards, Outstanding Professional Services", note: "Finalist", image: "/awards/kailash-lawyers-2022-parramatta-finalist.jpg" },
       { year: "2023", title: "Australian Small Business Champion Awards, Legal Services", note: "Finalist", image: "/awards/kailash-lawyers-2023-sbc-finalist.jpg" },
       { year: "2025", title: "Australian Professionals Small Business Champion Awards, Legal Services", note: "Finalist", image: "/awards/kailash-lawyers-2025-sbc-finalist.jpg" },
-      { year: "2026", title: "Certificate of Excellence", note: "Winner", image: "/awards/kailash-lawyers-2026-certificate-excellence.jpg" },
     ],
   },
   {
@@ -27,10 +25,10 @@ const COMPANY_AWARDS = [
     color: "#1E4E8C",
     items: [
       { year: "2021", title: "Parramatta City Local Business Awards", note: "Finalist", image: "/awards/koala-invest-2021-parramatta-finalist.jpg" },
-      { year: "2025", title: "Parramatta Local Business Awards", note: "Finalist", image: "/awards/koala-invest-2025-parramatta-finalist.jpg" },
-      { year: "2026", title: "Parramatta Local Business Awards", note: "Finalist", image: "/awards/koala-invest-2026-parramatta-finalist.jpg" },
       { year: "2022", title: "Parramatta Local Business Awards", note: "Finalist", image: "/awards/koala-invest-2022-parramatta-finalist.jpg" },
       { year: "2023", title: "Australian Small Business Champion Awards", note: "Finalist", image: "/awards/koala-invest-2023-sbc-finalist.webp" },
+      { year: "2025", title: "Parramatta Local Business Awards", note: "Finalist", image: "/awards/koala-invest-2025-parramatta-finalist.jpg" },
+      { year: "2026", title: "Parramatta Local Business Awards", note: "Finalist", image: "/awards/koala-invest-2026-parramatta-finalist.jpg" },
     ],
   },
   {
@@ -41,6 +39,16 @@ const COMPANY_AWARDS = [
       { year: "2025", title: "PropertyGuru Asia Property Awards (Australia), Best Breakthrough Developer", note: "Winner", image: "/awards/kuber-projects-2025-best-breakthrough-developer.webp" },
       { year: "2025", title: "PropertyGuru Asia Property Awards (Australia), Best Housing Development (Western Australia), Kuber Villas, Mandurah", note: "Winner", image: "/awards/kuber-projects-2025-best-housing-development.webp" },
       { year: "2025", title: "PropertyGuru Asia Property Awards (Australia), Best Investment Housing Development, Kuber Villas, Golden Bay", note: "Winner", image: "/awards/kuber-projects-2025-best-investment-housing-development.webp" },
+    ],
+  },
+  {
+    key: "notable-recognitions",
+    name: "Notable Recognitions",
+    color: "#B8912F",
+    items: [
+      { year: "2022", title: "NSW Volunteer of the Year Award", note: "Recognition", image: "/awards/notable-2022-nsw-volunteer.jpg" },
+      { year: "2025", title: "Certificate of Excellence", note: "Winner", image: "/awards/notable-2025-certificate-excellence.jpg" },
+      { year: "2026", title: "Certificate of Excellence", note: "Winner", image: "/awards/notable-2026-certificate-excellence.jpg" },
     ],
   },
 ];
